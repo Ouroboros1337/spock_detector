@@ -8,7 +8,7 @@ from spock_detector import Hand_Detector()
 
 hand_detector = Hand_Detector()
 
-# some way to get images (cv.readim, my rtsp library, other frame sources)
+\#some way to get images (cv.readim, my rtsp library, other frame sources)
 
 gestures = hand_detector.search_gestures(frame)
 
